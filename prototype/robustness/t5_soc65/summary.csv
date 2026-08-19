@@ -1,0 +1,15 @@
+metric,value
+initial_temp_c,5.000000000
+initial_soc_pct,65.000000000
+route_segments,6
+route_distance_km,40.000000000
+route_time_s,2196.000000000
+feasible_candidates,524
+score_50,50.000000000
+start_time_s,590.000000000
+start_distance_km,31.888888889
+end_temp_c,20.000155526
+end_soc_pct,27.603535543
+heat_energy_kwh,2.676666667
+charge_power_kw,89.739505761
+charge_time_s,735.679839729

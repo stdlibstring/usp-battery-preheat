@@ -1,0 +1,35 @@
+# ===== 逆向/敏感内容（不入库）=====
+protect/
+
+# ===== 临时目录 =====
+tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ===== 编辑器/系统 =====
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# ===== 编译产物（可由源码再生）=====
+*.exe
+*.o
+# 官方提供的链接对象属于构建依赖, 保留
+!sdk/lib/*.o
+# 由 oracle/physics.c 编译再生
+/oracle/physics.dll
+prototype/build/
+sdk/student_template/v4_out.txt
+sdk/student_template1.zip
+
+# ===== 缓存文件（首次运行自动重建）=====
+ml/nav_cache.npy
+
+# ===== 大体积生成数据（调试用途, 可由脚本再生）=====
+oracle/output/oracle_top10_raw.csv
+oracle/output/oracle_top10_safe.csv
+
+# ===== 根目录 PDF（官方版权材料 / 由 md 导出, md 为唯一源）=====
+/*.pdf
